@@ -1,0 +1,14 @@
+
+
+CREATE TABLE IF NOT EXISTS `ips` (
+  `id` int(11) NOT NULL,
+  `ip` varchar(50) NOT NULL,
+  `name` varchar(200) NOT NULL,
+  `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
+
+ALTER TABLE `ips`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `ips`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=1;
