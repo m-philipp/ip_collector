@@ -2,7 +2,7 @@
 Service that allows you to collect (public) IPs via a simple http GET.
 Therefore this service stores IPs calling a Page in a MySQL DB.
 
-Be aware that this service is algthough displaying what it had stored in the DB. So it's easy to access (But doesn't supply any privacy).
+Be aware that this service is although displaying what it has stored in his DB. So it's easy to access (But doesn't supply any privacy).
 
 ## Installation
 
